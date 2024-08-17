@@ -8,9 +8,9 @@ if y>mayor:
 if z>mayor:
     mayor=z
 menor = x
-if y < menor:
+if y < mayor:
   menor = y
-if y < menor:
+if z < menor:
   menor = z
 
 print("el numero mayor es",mayor)
