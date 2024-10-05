@@ -28,7 +28,7 @@ class ColaPrioridad:
         return not self.data
 
 # Ejemplo de uso
-msj = [('tarea1', 3), ('tarea2', 1), ('tarea3', 2)]
+msj = [('tarea1', 3), ('almacena', 1), ('tarea3', 2)]
 mi_cola = ColaPrioridad()
 
 for tarea, prioridad in msj:
